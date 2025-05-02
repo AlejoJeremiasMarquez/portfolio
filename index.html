@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenido-header">
+         <header>
+             <div class="logo">
+                 <a href="#">Alejo</a>
+             </div>
+             <nav id="nav">
+                 <ul>
+                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li> 
+                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                 </ul>
+             </nav>
+             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+             </div>
+         </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="/assets/perfil.jpg" alt="">
+            </div>
+            <h1>ALEJO MARQUEZ</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p>
+                <span>Hola, soy Alejo Marquez</span> Soy desarrollador web con foco en el FrontEnd, apasionado por crear interfaces limpias, funcionales y adaptadas a las necesidades de cada proyecto. Trabajo con tecnologías como <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> y frameworks modernos como <b>Angular</b> y <b>React</b>.
+                También tengo experiencia en el desarrollo del lado del servidor, utilizando <b>PHP</b>, <b>Laravel</b> y <b>FilamentPHP</b>, junto con bases de datos <b>PostgreSQL</b>.  
+                Comencé mi camino en el desarrollo web de forma autodidacta en 2022, y fui consolidando mis conocimientos a través de bootcamps y plataformas como Coderhouse, FreeCodeCamp y TodoCode. Desde hace dos años me desempeño como desarrollador fullstack en <b>Binnlife</b>, donde participo en proyectos web completos, desde su arquitectura hasta su diseño final.
+            </p>
+
+            <div class="fila">
+                <!--  datos personales  -->
+                  <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                15-02-1990
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                2555 54545454
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                am@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                www.alejomarquez.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Av. Siempre Viva 123
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Programador Junior</span>
+                            </li>
+                        </ul>
+                  </div>
+
+                <!--  intereses  -->
+                  <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenido-intereses">
+                    
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>APPLE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SKILLS -->
+    <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!-- Technical Skills -->
+                <div class="col">
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>React</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Angular</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Git, Github & Gitlab</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Laravel</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            <!-- Professional Skills -->
+                <div class="col">
+                <h3>Professinal Skills</h3>
+
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Organización</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proactividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Responsabilidad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- SECCIÓN CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi est omnis eaque saepe numquam. Atque exercitationem, perferendis reprehenderit maiores nesciunt itaque deleniti esse nihil laudantium saepe voluptas cumque rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel laudantium, impedit harum in incidunt blanditiis! Minima nisi blanditiis eius possimus dicta distinctio inventore a! Quibusdam iste ab debitis officia!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>Portfolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="assets/p1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/p2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/p3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/p4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/p5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/p6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="assets/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Av Carcano 251, Córdoba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamáme: 3515122236
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Gmail: alejomarquez.dev
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

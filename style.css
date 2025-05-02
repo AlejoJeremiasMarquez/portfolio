@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/styles/about-me.css');
+@import url('/styles/banner-contain.css');
+@import url('/styles/contact.css');
+@import url('/styles/curriculum.css');
+@import url('/styles/footer.css');
+@import url('/styles/header-contain.css');
+@import url('/styles/keyframes.css');
+@import url('/styles/portfolio.css');
+@import url('/styles/responsive.css');
+@import url('/styles/skills.css');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    color-scheme: light dark;
+}
+
+body{
+    background-color: light-dark(#fff, #444);
+    color: light-dark(#444, #fff);
+}
+
+html{
+    scroll-behavior: smooth;
+}

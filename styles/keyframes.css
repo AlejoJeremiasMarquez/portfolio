@@ -1,0 +1,116 @@
+@keyframes javascript {
+    0%{ width: 0%;}
+    100%{ width: 90%;}
+}
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{ width: 0%;}
+    100%{ width: 100%;}
+}
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{ width: 0%;}
+    100%{ width: 75%;}
+}
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s angular forwards;
+}
+@keyframes angular {
+    0%{ width: 0%;}
+    100%{ width: 80%;}
+}
+.skills .skill .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git {
+    0%{ width: 0%;}
+    100%{ width: 90%;}
+}
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
+    0%{ width: 0%;}
+    100%{ width: 70%;}
+}
+.skills .skill .laravel{
+    width: 0%;
+    animation: 2s laravel forwards;
+}
+@keyframes laravel {
+    0%{ width: 0%;}
+    100%{ width: 65%;}
+}
+.skills .skill .filamentPHP{
+    width: 0%;
+    animation: 2s filamentPHP forwards;
+}
+@keyframes filamentPHP {
+    0%{ width: 0%;}
+    100%{ width: 80%;}
+}
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{ width: 0%;}
+    100%{ width: 95%;}
+}
+.skills .skill .trabajoEnEquipo{
+    width: 0%;
+    animation: 2s trabajoEnEquipo forwards;
+}
+@keyframes trabajoEnEquipo {
+    0%{ width: 0%;}
+    100%{ width: 90%;}
+}
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{ width: 0%;}
+    100%{ width: 80%;}
+}
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{ width: 0%;}
+    100%{ width: 85%;}
+}
+.skills .skill .organizacion{
+    width: 0%;
+    animation: 2s organizacion forwards;
+}
+@keyframes organizacion {
+    0%{ width: 0%;}
+    100%{ width: 75%;}
+}
+.skills .skill .proactividad{
+    width: 0%;
+    animation: 2s proactividad forwards;
+}
+@keyframes proactividad {
+    0%{ width: 0%;}
+    100%{ width: 80%;}
+}
+.skills .skill .responsabilidad{
+    width: 0%;
+    animation: 2s responsabilidad forwards;
+}
+@keyframes responsabilidad {
+    0%{ width: 0%;}
+    100%{ width: 100%;}
+}
