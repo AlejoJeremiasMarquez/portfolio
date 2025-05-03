@@ -1,6 +1,6 @@
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(0deg,rgba(30, 35, 38, 1) 0%, rgba(56, 64, 66, 1) 50%, rgba(93, 98, 99, 1) 100%);
+    background: linear-gradient(0deg,rgba(24, 35, 31, 1) 0%, rgba(44, 64, 58, 1) 100%);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -9,15 +9,16 @@
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
     max-width: 350px;
     margin: auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 30px;
+    border: 1px solid #2C403A;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #52F2B8;
     display: block;
     width: 200px;
     height: 200px;
@@ -28,7 +29,7 @@
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 42px;
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
@@ -48,5 +49,7 @@
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #52F2B8;
+    color: black;
+    transition: .7s;
 }

@@ -1,5 +1,5 @@
 .contenido-header{
-    background: #1e2326;
+    background: #2C403A;
     position: fixed;
     width: 100%;
     top: 0;
@@ -14,11 +14,17 @@
     align-items: center;
     padding: 15px 20px;
 }
+.contenido-header header i{
+    color: #37A686;
+    font-size: 8px;
+}
 .contenido-header header .logo a{
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
     font-size: 36px;
-    color: #1CB698;
+    color: #52F2B8;
     text-decoration: none;
+    font-weight: 1000;
+    margin-right: -12px;
 }
 .contenido-header header ul{
     display: flex;
@@ -33,10 +39,11 @@
     text-decoration: none;
 }
 .contenido-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #48D4A0;
+    transition: .7s;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #48D4A0;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;

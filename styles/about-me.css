@@ -1,5 +1,5 @@
 .sobremi{
-    background-color: #1e2326;
+    background-color: #18231F;
     color: #fff;
     padding: 50px 0;
 }
@@ -9,7 +9,7 @@
 }
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
     text-align: center;
     padding: 20px 0;
 }
@@ -20,7 +20,7 @@
     text-align: justify;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #37A686;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -31,7 +31,7 @@
 }
 .sobremi .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
     margin-bottom: 25px;
 }
 .sobremi .fila .col ul{
@@ -42,14 +42,16 @@
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #52F2B8;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #52F2B8;
     padding: 5px;
     font-weight: bold;
     border-radius: 5px;
+    color: black;
+    transition: .7s;
 }
 .sobremi .fila .col .contenido-intereses{
     display: flex;
@@ -68,7 +70,7 @@
     transition: .3s;
 }
 .sobremi .fila .col .contenido-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #37A686;
     transition: .7s;
 }
 .sobremi .fila .col .contenido-intereses .interes i{
@@ -94,7 +96,8 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #37A686;
+    color: black;
     z-index: -1;
     transition: 1s;
 }

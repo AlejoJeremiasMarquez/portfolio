@@ -1,5 +1,5 @@
 .skills{
-    background-color: #252A2E;
+    background-color: #1A3B2F;
     color: #fff;
     padding: 50px 0;
 }
@@ -9,7 +9,7 @@
 }
 .skills h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
     text-align: center;
     padding: 20px 0;
 }
@@ -22,7 +22,7 @@
 }
 .skills .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: 'Cal Sans';
     margin-bottom: 25px;
 }
 .skills .skill > span{
